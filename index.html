@@ -4,123 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-    
 </head>
+<link rel="stylesheet" href="assets/css/main.css">
 <body>
- 
-    <!--<nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo"> <i class="fas fa-gen"></i> NEXT</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span> <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/tech.html" class="navbar__links">Tech</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Products</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="/" class="button">Sign Up</a>
-                </li>
+
+    <header>
+        <h1>Welcome to Our School</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>We provide quality education to students of all ages.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our school has been a pillar of the community for over 20 years.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our School. All rights reserved.</p>
+    </footer>
     
-
-    <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>NEXT GENERATION</h1>
-                <h2>TECHNOLOGY</h2>
-                <p>See what makes us different.</p>
-                <button class="main__btn"><a href="">Get started</
-                    a></button>
-            </div>
-            <div class="main__img--container">
-                <img src="assets/images/pre-school.jpg" alt="" id="main__img">
-            </div>
-        </div>
-    </div>
--->
-
-
-<nav class="navbar" id="navbar">
-    <div class="navbar__container">
-        <a href="/" id="navbar__logo"><i class="fas fa-gen"></i> Home</a>
-        <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="#" class="navbar__links" data-content="home">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="#" class="navbar__links" data-content="tech">Tech</a>
-            </li>
-            <li class="navbar__item">
-                <a href="#" class="navbar__links" data-content="products">Products</a>
-            </li>
-            <li class="navbar__item">
-                <a href="#" class="navbar__links" data-content="contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<div class="main">
-    <div class="main__container">
-        <div class="main__content" id="dynamic-content">
-            <h1>NEXT GENERATION</h1>
-            <h2>TECHNOLOGY</h2>
-            <p>See what makes us different.</p>
-            
-        </div>
-        <div class="main__img--container">
-            <img src="assets/images/pre-school.jpg" alt="Children engaged in technology" id="main__img">
-        </div>
-    </div>
-</div>
-
-<div id="content-sections" class="hidden">
-    <div id="home" class="content-section hidden">
-        <h1>Welcome to Home</h1>
-        <img src="assets/images/canteen2.jpg" alt="Home Image" style="max-width: 100%; height: auto;">
-        <p>Discover our innovative solutions.</p>
-    </div>
-    <div id="tech" class="content-section hidden">
-        <h1>Technology</h1>
-        <img src="assets/images/ICT.jpg" alt="Technology Image" style="max-width: 100%; height: auto;">
-        <p>Explore the latest in technology. Explore the latest in technology. Explore the latest in technology</p>
-        
-        <p>Explore the latest in technology. Explore the latest in technology. Explore the latest in technology</p>
-        <p>Explore the latest in technology.</p>
-        <p>Explore the latest in technology.</p>
-    </div>
-    <div id="products" class="content-section hidden">
-        <h1>Our Products</h1>
-        <img src="assets/images/canteen2.jpg" alt="Products Image" style="max-width: 100%; height: auto;">
-        <p>Check out our diverse product range.</p>
-    </div>
-
-    <div id="contact" class="content-section hidden">
-        <h1>Contact</h1>
-        <img src="assets/images/canteen.jpg" alt="Products Image" style="max-width: 100%; height: auto;">
-        <p>Check out our diverse product range.</p>
-    </div>
-    
-</div>
-
-
     <script src="assets/js/main.js"></script>
 </body>
 </html>
